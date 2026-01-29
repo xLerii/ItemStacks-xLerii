@@ -1,4 +1,9 @@
 # ItemStacks Plugin for Valheim
+
+To start off - this is my first mod change/modification, so please be gentle :D
+I modified the original [ItemStacks] mod by mtnewton to add support for custom items/mods.
+
+## Description
 Increases item stack size (10x by default) and item weight (x0.1 by default).
 
 Loading up a world without the mod installed or reducing item stack size will cause any items in a stack above the new stack size to be lost.
@@ -9,6 +14,8 @@ You must join a world for it to create the individual item config entries.
 You may choose to enable/disable the stack size or weight modification by setting the respective enabled flag.
 
 Item weights and stack sizes can be individually set, setting these values above 0 will have it ignore the multiplier and use the given value instead.
+
+Additional items added by mods will also be modified if the mod creates the item using the ItemData class.
 
 ## Installation
 1. Download and install [BepInEx Valheim](https://valheim.thunderstore.io/package/denikson/BepInExPack_Valheim/)
@@ -75,8 +82,11 @@ amberpearl_weight = 0
 
 ...
 ```
-
-## Changelog
+## ChangeLog - xLerii
+- v1.3.0
+    - added support for custom items/mods by using the ItemData patch to set stack size/weight when items are created
+    - updated BepInEx dependency to 5.4.21
+## Changelog - mtnewton
 - v1.2.0
     - added config option for stack and weight multiplier
     - specific item configs now default to 0

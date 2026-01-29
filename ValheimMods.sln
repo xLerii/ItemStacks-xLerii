@@ -1,19 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31005.135
+# Visual Studio Version 18
+VisualStudioVersion = 18.2.11415.280 d18.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gravekeeper", "Gravekeeper\Gravekeeper.csproj", "{FD8393C0-8DA6-4299-971C-37B2DE9F5B1D}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BiggerPickupRadius", "BiggerPickupRadius\BiggerPickupRadius.csproj", "{5BE87E6F-506B-4810-B0C5-C014204BFA0C}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ItemStacks", "ItemStacks\ItemStacks.csproj", "{B9020F6F-C5EA-4F1A-A114-AD1A1FE1F44C}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpertMode", "ExpertMode\ExpertMode.csproj", "{4492B07E-FD0A-4934-9672-204650AE7CE4}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CraftingStationRange", "CraftingStationRange\CraftingStationRange.csproj", "{CCB2A8CA-A25C-4998-BC4A-EC6F6BDBEBEA}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkillCapPlus", "SkillCapPlus\SkillCapPlus.csproj", "{5E66A95F-D332-41F7-9601-D3D128DED8A2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -22,41 +12,12 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{FD8393C0-8DA6-4299-971C-37B2DE9F5B1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FD8393C0-8DA6-4299-971C-37B2DE9F5B1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FD8393C0-8DA6-4299-971C-37B2DE9F5B1D}.Local|Any CPU.ActiveCfg = Local|Any CPU
-		{FD8393C0-8DA6-4299-971C-37B2DE9F5B1D}.Local|Any CPU.Build.0 = Local|Any CPU
-		{FD8393C0-8DA6-4299-971C-37B2DE9F5B1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FD8393C0-8DA6-4299-971C-37B2DE9F5B1D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5BE87E6F-506B-4810-B0C5-C014204BFA0C}.Debug|Any CPU.ActiveCfg = Release|Any CPU
-		{5BE87E6F-506B-4810-B0C5-C014204BFA0C}.Local|Any CPU.ActiveCfg = Local|Any CPU
-		{5BE87E6F-506B-4810-B0C5-C014204BFA0C}.Local|Any CPU.Build.0 = Local|Any CPU
-		{5BE87E6F-506B-4810-B0C5-C014204BFA0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5BE87E6F-506B-4810-B0C5-C014204BFA0C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B9020F6F-C5EA-4F1A-A114-AD1A1FE1F44C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B9020F6F-C5EA-4F1A-A114-AD1A1FE1F44C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B9020F6F-C5EA-4F1A-A114-AD1A1FE1F44C}.Local|Any CPU.ActiveCfg = Local|Any CPU
 		{B9020F6F-C5EA-4F1A-A114-AD1A1FE1F44C}.Local|Any CPU.Build.0 = Local|Any CPU
 		{B9020F6F-C5EA-4F1A-A114-AD1A1FE1F44C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B9020F6F-C5EA-4F1A-A114-AD1A1FE1F44C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4492B07E-FD0A-4934-9672-204650AE7CE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4492B07E-FD0A-4934-9672-204650AE7CE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4492B07E-FD0A-4934-9672-204650AE7CE4}.Local|Any CPU.ActiveCfg = Local|Any CPU
-		{4492B07E-FD0A-4934-9672-204650AE7CE4}.Local|Any CPU.Build.0 = Local|Any CPU
-		{4492B07E-FD0A-4934-9672-204650AE7CE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4492B07E-FD0A-4934-9672-204650AE7CE4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CCB2A8CA-A25C-4998-BC4A-EC6F6BDBEBEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CCB2A8CA-A25C-4998-BC4A-EC6F6BDBEBEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CCB2A8CA-A25C-4998-BC4A-EC6F6BDBEBEA}.Local|Any CPU.ActiveCfg = Local|Any CPU
-		{CCB2A8CA-A25C-4998-BC4A-EC6F6BDBEBEA}.Local|Any CPU.Build.0 = Local|Any CPU
-		{CCB2A8CA-A25C-4998-BC4A-EC6F6BDBEBEA}.Release|Any CPU.ActiveCfg = Local|Any CPU
-		{CCB2A8CA-A25C-4998-BC4A-EC6F6BDBEBEA}.Release|Any CPU.Build.0 = Local|Any CPU
-		{5E66A95F-D332-41F7-9601-D3D128DED8A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5E66A95F-D332-41F7-9601-D3D128DED8A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5E66A95F-D332-41F7-9601-D3D128DED8A2}.Local|Any CPU.ActiveCfg = Local|Any CPU
-		{5E66A95F-D332-41F7-9601-D3D128DED8A2}.Local|Any CPU.Build.0 = Local|Any CPU
-		{5E66A95F-D332-41F7-9601-D3D128DED8A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5E66A95F-D332-41F7-9601-D3D128DED8A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
