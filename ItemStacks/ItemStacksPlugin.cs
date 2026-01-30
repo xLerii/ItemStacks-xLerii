@@ -12,9 +12,9 @@ namespace ItemStacks
     [HarmonyPatch]
     public class ItemStacksPlugin : BaseUnityPlugin
     {
-        public const string GUID = "com.xlerii.itemstacks-xlerii";
+        public const string GUID = "com.xlerii.stackheim-xlerii";
 
-        public const string NAME = "ItemStacks-xLerii";
+        public const string NAME = "StackHeim-xLerii";
 
         public const string VERSION = "1.0.0";
 
