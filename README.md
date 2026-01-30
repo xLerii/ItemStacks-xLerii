@@ -1,7 +1,8 @@
-# ItemStacks Plugin for Valheim
+# StackHeim Plugin for Valheim
 
-To start off - this is my first mod change/modification, so please be gentle :D
-I modified the original [ItemStacks] mod by mtnewton to add support for custom items/mods.
+To start off - this is my first mod modification, so please be gentle :D
+I modified the original [ItemStacks] mod by mtnewton https://github.com/mtnewton/valheim-mods/tree/master/ItemStacks
+to add support for custom items/mods.
 
 ## Description
 Increases item stack size (10x by default) and item weight (x0.1 by default).
@@ -19,7 +20,7 @@ Additional items added by mods will also be modified if the mod creates the item
 
 ## Installation
 1. Download and install [BepInEx Valheim](https://valheim.thunderstore.io/package/denikson/BepInExPack_Valheim/)
-2. Download this mod and move the `ItemStacks.dll` into `<GameLocation>\BepInEx\plugins`
+2. Download this mod and move the `StackHeim.dll` into `<GameLocation>\BepInEx\plugins`
 3. Launching the game and joining a world will generate a config file at `<GameLocation>\BepInEx\config`
 
 ## Configuration
@@ -39,6 +40,13 @@ stack_size_multiplier = 10
 # Setting type: Single
 # Default value: 0.1
 weight_multiplier = 0.1
+
+## Comma-separated list of prefab names, plain names or shared names to include.
+## Example: "CustomItem1,CustomItem2,CustomItem3"
+# Setting type: String
+# Default value: ""
+additionalitems_items =
+
 
 [ItemStacks.ItemStackSize]
 
@@ -83,10 +91,12 @@ amberpearl_weight = 0
 ...
 ```
 ## ChangeLog - xLerii
-- v1.3.0
+- v1.0.0
+    - Changed the name to StackHeim
     - added support for custom items/mods by using the ItemData patch to set stack size/weight when items are created
-    - updated BepInEx dependency to 5.4.21
-## Changelog - mtnewton
+    - updated BepInEx dependency to 5.4.2333
+
+## Changelog - mtnewton (orginal mod creator)
 - v1.2.0
     - added config option for stack and weight multiplier
     - specific item configs now default to 0
@@ -106,4 +116,5 @@ amberpearl_weight = 0
     - configurable item stack size and item weight (defaults to 10x base item stack size and 0.1x item weight)
 
 ## Source Code
-https://github.com/mtnewton/valheim-mods/tree/master/ItemStacks
+xLerii -> https://github.com/xLerii/StackHeim-xLerii
+mtnewton -> https://github.com/mtnewton/valheim-mods/tree/master/ItemStacks
