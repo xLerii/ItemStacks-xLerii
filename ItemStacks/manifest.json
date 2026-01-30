@@ -1,9 +1,9 @@
 {
-  "name": "ItemStacks-xLerii",
+  "name": "StackHeim-xLerii",
   "version_number": "1.0.0",
   "website_url": "https://github.com/xLerii/ItemStacks-xLerii",
   "description": "Increases item stack size and reduces item weight - as well as field to add another mods items!. Configurable",
   "dependencies": [
-    "denikson-BepInExPack_Valheim-5.4.600"
+    "denikson-BepInExPack_Valheim-5.4.2333"
   ]
 }
